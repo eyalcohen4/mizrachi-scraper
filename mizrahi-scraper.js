@@ -1,6 +1,6 @@
 "use strict";
 
-require("dotenv").config({ path: __dirname + '../.env' });
+require("dotenv").config();
 
 const pup = require("puppeteer");
 
@@ -15,7 +15,7 @@ const getMizrachiBalance = async () => {
   try {
     const browser = await pup.launch({
       args: ["--no-sandbox", "--disable-setuid-sandbox"],
-      headless: false
+      headless: process.env.HEADLESS
     });
     const page = await browser.newPage();
 
@@ -44,4 +44,4 @@ const getMizrachiBalance = async () => {
   }
 };
 
-await getMizrachiBalance();
+getMizrachiBalance();
