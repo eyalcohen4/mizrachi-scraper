@@ -1,14 +1,14 @@
 {
   "name": "mizrahi-scraper",
   "version": "1.0.0",
-  "description": "",
+  "description": "A small scraper to get bank balance from Mizrahi Tefahot bank",
   "main": "mizrahi-scraper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node mizrahi-scraper.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Eyal Cohen <eyalcohen4.ec@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^6.1.0",
