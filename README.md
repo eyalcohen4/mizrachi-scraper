@@ -1,6 +1,6 @@
 # Mizrahi Scraper
 
-This project scraping the Mizrahi Tfahot website in order to retrive data.
+This project scrape the Mizrahi Tfahot website.
 
 Currently you can only get your balance from the main page.
 
